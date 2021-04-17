@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>India Corona Tracker</title>
+</head>
+<style>
+  .table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+  }
+
+  #icon {
+    width: 3%;
+  }
+
+  body {
+    background-image: url(static/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input,
+  select,
+  textarea {
+    max-width: 380px;
+  }
+
+  button {
+    min-width: 100px;
+  }
+
+  .innertext {
+    margin: 20px;
+    font-family: Arial;
+    color: #202124;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  #footer {
+			width: 100%;
+			background: #c1dcf8;
+			color: black;
+			font-family: Arial;
+			text-align: center;
+			padding: 8px;
+		}
+</style>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="/static/corona.png" id="icon">
+    <a class="navbar-brand" href="http://127.0.0.1:5000/">Corona Tracker</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/">Home </a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Country
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="http://127.0.0.1:5000/India">India</a>
+          </div>
+        </li>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="http://127.0.0.1:5000/Coping">Coping <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/AboutUs">About Us </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="table">
+    <div class="innertext">
+      <h2><b>About Us</b></h2><br /><br />
+      <h3>It changes rapidly and may differ by location</h3>
+      This data changes rapidly and might not reflect some cases still being reported. Some areas may not have data
+      because they haven’t published their data or haven’t done so recently. Because data availability differs by
+      location, date ranges for 14-day data may start on different dates.
+      <br><br>
+
+      <h3>It includes confirmed and probable cases</h3>
+      Total counts include both confirmed and probable cases in some locations. Probable cases are identified by public
+      health officials and use criteria developed by government authorities.
+      <br><br>
+
+      <h3>It’s constantly updated from resources around the world</h3>
+      Data comes from <a href="https://en.wikipedia.org/wiki/COVID-19_pandemic"
+        target="https://en.wikipedia.org/wiki/COVID-19_pandemic">Wikipedia</a>, government health ministries, The New
+      York Times, and other authoritative sources, as attributed.
+      <br><br>
+
+      <h3>It may differ from other sites and sources</h3>
+      There are various sources that are tracking and aggregating coronavirus data. They update at different times and
+      may have different ways of gathering data.
+      <br><br>
+
+      <h3>The group members are:</h3>
+      Rakesh Sharma(37)<br>
+      Shaurya Sharma(38)<br>
+      Darshan Shelar(39)<br>
+      Umang Shukla(40)<br>
+      Jeevesh Singale(41)<br>
+      <br><br>
+    </div>
+  </div>
+  <div id="footer">This Project Helps us in getting the Updates of Covid-19</div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
